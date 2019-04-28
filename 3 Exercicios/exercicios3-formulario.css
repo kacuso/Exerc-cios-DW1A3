@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+#principal{
+	width:1000px;
+	margin:auto;
+	background-color:#fff;
+	padding:10px;
+}
+
+figure{
+	margin:0px;
+}	
+
+#logo{
+	height:100px;
+	text-align:center;
+	background-color:#fff;
+	margin-bottom:10px;
+}
+
+#menu{
+	height:50px;
+	border-top: #000000 solid 1px;
+	border-bottom:#000000 solid 1px;
+	margin-bottom:10px;
+}	
+
+#col_esquerda{
+	width:790px;
+	height:1000px;
+	float:left;}	
+
+#foto_principal{
+	height:300px;
+	background-color:#303030;
+	margin-bottom:10px;
+}
+
+#sub{
+	height:50px;
+	background-color:#4C4C4C;
+	border-radius:10px;
+	clear:both;
+	margin-bottom:10px;
+}
+
+#col_direita{
+	width:200px;
+	height:1130px;
+	float:right;
+	border:#B4B4B4 solid 1px;
+	margin-bottom:10px;
+}
+
+
+#rodape{
+	clear:both;
+	height:50px;
+	border-radius:10px;
+	background-color:#2E2E2E;
+	text-align:center;
+	line-height:50px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#fff;
+}
+	
+/*Navegação*/	
+	
+#menu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	float:left;
+}
+
+#menu ul li{
+	float:left;
+}
+
+#menu ul a{
+	display:block;
+	width:200px;
+	height:50px;
+	line-height:50px;
+	text-decoration:none;
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12;
+	color:#fff;
+	/*background-color:#0015FF;*/
+	background:url(rollover.jpg) no-repeat left bottom;
+}
+
+#menu a:hover{
+	background-position:right bottom;
+}
+
+/*Formulário de contato - apenas na página contato*/
+
+#contato{
+	height:820px;
+	border:solid #000000 1px;
+}
+
+body{
+	background-color:#E5474A;
+}
+
+fieldset{
+	height: 800px;
+	border:solid #000000 1px;
+}
+form{
+	padding: 20px;
+	display: grid;
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 15px;
+}
+
+input{
+	border: 1px solid #111;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 22px;
+	cursor: pointer;
+}
+
+button{
+	font-size: 40px;
+}	
+	
